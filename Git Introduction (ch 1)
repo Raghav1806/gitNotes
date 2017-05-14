@@ -1,0 +1,22 @@
+Keeps track of changes (especially text changes)
+
+Version control system - Source code management system
+
+Distributed version control - changes are stored as "patches".
+Git tracks changes, not versions.
+
+No need to communicate with a central server
+- faster
+- no network access required
+- no single failure point
+
+There is no master repository in Git, all repositories are considered equivalent.
+
+Git is NOT usful for tracking non-text files.
+
+Who should use git?
+- anyone wanting to track edits.
+- review hisory log of changes made.
+- retrieve old versions.
+- anyone needing to share changes with collaborators.
+

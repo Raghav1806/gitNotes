@@ -1,0 +1,19 @@
+Basic Git Instructions:
+(1) which git 
+(2) git --version
+(3) git config --system [system level configuration]
+(4) git config --global [user level configuration]
+
+-> git config --global user.name "Raghav Sharma"
+-> git config --global user.email "2015eeb1071@iitrpr.ac.in"
+
+(5) git config --list
+(6) cat .gitconfig
+(7) git config --global core.editor "mate -wl1"
+(8) git config --global color.ui true
+
+
+
+-> git help 
+-> git help <command>
+or man git-log

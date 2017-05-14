@@ -1,0 +1,27 @@
+Two tree architecture
+Repository -> Working Directory (checkout)
+Working Copy -> Repository (commit)
+
+Git uses Three tree architecture
+
+Repository -> Staging Index -> Working Directory
+git commit file.txt <- git add file.txt <- 
+
+Git Workflow
+(1) file.txt is added to the working directory
+(2) git add file.txt  or git add . -> this adds new file to the staging index
+(3) git commit -> now this file exists in the repository
+(4) git log -> shows sequence of changes made in the repository
+
+Using Hash Values in git:
+- git generates a checksum for each change set
+- checksum algo converts data into simple number
+- same data always equals same checksum
+- changing data would change checksum
+
+
+Head Pointer in git:
+- pointer to "tip" of CURRENT branch in repository
+- last state of repository, what was last checked out
+- points to parent of next commit
+
