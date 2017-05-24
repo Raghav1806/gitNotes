@@ -1,0 +1,21 @@
+Note: stash@{0} is the reference of stash
+
+Saving changes in the stash:
+- Stash -> place where we can store changes temporarily without commiting
+- Commit your changes or stash them before you can switch branches
+(1) git stash save -m "Message"
+
+Viewing stashed changes
+(1) git stash list -> accessible even after switching branches
+(2) git stash show stash@{0}
+(3) git stash show -p stash@{0} -> similar to diff
+
+Retrieving stashed changes
+- Makes changes to the current branch
+(1) git stash apply stash@{0} -> leaves a copy of stash
+(2) git stash pop stash@{0} -> removes stash from memory 
+(3) git stash save "message"
+
+Deleting stashed changes (without applying them)
+(1) git stash drop stash@{0}
+(2) git stash clear

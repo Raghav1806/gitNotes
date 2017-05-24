@@ -1,0 +1,20 @@
+Merging branches -> switch to branch (master in most cases) in which branch is merging  
+(1) git merge <branchName>
+
+Fast forward v/s real merges:
+
+Merge conflicts:
+- When their are two changes in same line in two commits
+
+Resolving merge conflicts:
+(1) Abort merge
+git merge --abort
+(2) Resolve conflicts manually
+(3) Use a merge tool
+
+Strategies to reduce conflicts:
+(1) Keep lines short
+(2) Keep commits small and focused
+(3) Merge often - multiple merging is possible
+(4) Track changes to master - keep branch in sync with master
+
