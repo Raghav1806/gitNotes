@@ -1,0 +1,23 @@
+Tree -> directory
+Blob -> file
+
+Referencing Commit Tree:
+Referencing Commits
+Tree-ish -> In general <tree-ish> means a reference to a git tree object
+-> Ways of referencing to a commit
+(1) Full SHA-1 Hash
+(2) Short SHA-1 Hash
+	- atleast 4 characters
+(3) HEAD pointer
+(4) Branch reference, tag reference
+(5) Ancestry
+
+Parent commit
+- HEAD^, acf87504^, master^
+- HEAD~1, HEAD~
+Grandparent commit
+- HEAD^^, acf87504^^, master^^
+- HEAD~2
+<Similarly for preceding generations>
+
+git ls-tree HEAD -> shows all the contents in this file

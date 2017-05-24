@@ -1,0 +1,32 @@
+Branches in Git
+- Branches are cheap (easy to work with)
+- Used to try new ideas
+- Isolate features or sections of work
+- One working directory [Master Branch]
+- Fast context switching
+
+Viewing and Creating Branches:
+(1) git branch -> shows our current branch
+(2) git branch <nameOfBranch> -> creates the branch
+
+Switching Branches:
+(1) git checkout <branchName>
+
+Creating and switching branches simultaneously:
+(1) git checkout -b <branchName>
+
+Switching branches with uncommited changes:
+- After making changes in a branch, we have 3 choices:
+(1) Abort the changes and move back to master branch without commit
+(2) Commit and save the changes
+(3) Stash
+
+Comparing branches:
+(1) git diff <branch1>..<branch2>
+(2) git diff --color-words <branch1>..<branch2>
+
+Renaming branches:
+(1) git branch -m <initialName> <finalName>
+
+Deleting branches -> Make sure to switch to different branch before deleting
+(1) git branch -d <branchName>

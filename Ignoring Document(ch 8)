@@ -1,0 +1,33 @@
+Using gitignore
+project/.gitignore
+(1) Very basic regular expressions
+* ? [aeiou] [0-9]
+(2) negate expressions with !
+*.php
+!index.php
+(3) ignore all files in a directory with trailing slash
+assets/videos/
+(4) nano .gitignore -> add all the files you want to ignore in this folder.
+
+Ideas on what to ignore:
+(1) compiled source code
+(2) packages and compressed files
+(3) logs and databases
+(4) operating system generated files
+(5) user uploaded assets (images, PDFs, videos)
+
+Globally ignoring files
+(1) ignore files in all repositories
+(2) settings not tracked in repository
+(3) user-specific instead of repository-specific
+
+Ignoring tracked files
+(1) nano .gitignore
+(2) add file being tracked to the folder
+-> NOTHING happens
+(3) git rm --cached <file name>
+-> removes file from staging index
+
+
+
+

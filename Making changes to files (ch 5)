@@ -1,0 +1,31 @@
+git status -> 
+(1) Returns where the head pointer points to 
+(2) Which files are NOT being tracked 
+(3) Which file have not been commited
+(4) Which file has been changed
+
+How to edit files:
+(1) After files are added and saved in the desired repository, using git status command will show that few changes need to be saved. 
+(2) We can save all the desired changes by using the git add <fileName> command, and then adding the commit using the git commit -m "Commit" command.
+
+Viewing changes in file:
+- : depicts initial status of file
++ : depicts the final modified file
+(1) git diff: shows changes and it's index
+(2) git diff <file name>: works for a specific file.
+(3) git diff --staged: compares staging index with working directory.
+
+Deleting files using git:
+(1) Delete file normally
+- git rm <file name>
+
+(2) Use git rm <file name>: file is not even in trash
+
+Moving and Renaming files:
+(1) Manually rename the file
+- Save and commit changes
+(2) git mv <primaryFileName> <secondaryFileName>
+- This can also be used to move one file into another.
+
+
+

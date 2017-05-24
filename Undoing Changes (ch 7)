@@ -1,0 +1,27 @@
+Undoing saved changes in a file -> changes which have not been added in git repo.
+(1) git checkout -- <File Name>
+-> -- indicates that we want to stay on the same branch.
+
+Unstaging staged changes in a file -> changes which have been added in git repo -> changes are visible, but they are not saved in git repo.
+(1) git reset HEAD <file name>
+
+Amending Commits:
+We can only edit the last commit, the one at which HEAD points to.
+(1) git commit --amend -m "Message"
+
+Retrieving old versions:
+<Video 4 not clear>
+
+Reverting a commit:
+git revert <part of commit id>
+revert-> all changes will be neglected for that commit.
+
+Using reset to undo multiple commits -> manipulating the HEAD pointer -> rewinds back to a commit.
+git reset 
+(1) --soft  -> does not change staging index or working directory.
+(2) --mixed(default) -> changes staging index, but does not change working directory.
+(3) --hard -> changes staging index and working directory.
+
+Removing untracked directories:
+(1) git clean -n -> shows what would happen on execution 
+(2) git clean -f

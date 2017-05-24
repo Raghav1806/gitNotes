@@ -1,0 +1,6 @@
+Using Git with a Real Project:
+(1) git commit -am "Commit message" - Adds and Commits simultaneously.
+
+Making specific commit for simulaneous edits:
+(1) git commit -m "Commit Message 1"
+(2) git commit -am "Commit Message 2"
