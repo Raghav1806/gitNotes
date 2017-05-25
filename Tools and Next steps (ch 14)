@@ -1,0 +1,6 @@
+Setting up aliases for common commands:
+- Set up in User Directory
+(1) git config --global alias.<shortCut> "command"
+
+
+
